@@ -12,6 +12,10 @@ This is a minimal state-machine API built in .NET 8 / C# as part of the Infoneti
 - Inspect current state and history of instances
 - In-memory storage (no database)
 
+  #  Quick Start
+
+#  Run the Project
+
 ```bash
 dotnet run
  Example API Calls
