@@ -16,15 +16,13 @@ This is a minimal state-machine API built in .NET 8 / C# as part of the Infoneti
 
 #  Quick Start
 
-# 1. Run the Project
+#  Run the Project
 
 ```bash
 dotnet run
-2. Example API Calls
+Example API Calls
     Create a Workflow
     powershell
-    Copy
-    Edit
     curl -Uri http://localhost:5151/workflows -Method POST -Body '{
     "name": "Leave Process",
     "states": [
