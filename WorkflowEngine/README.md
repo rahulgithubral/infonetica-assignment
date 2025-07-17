@@ -14,11 +14,9 @@ This is a minimal state-machine API built in .NET 8 / C# as part of the Infoneti
 
 
 
-#  Quick Start
 
-#  Run the Project
 
-```bash
+
 dotnet run
 Example API Calls
     Create a Workflow
