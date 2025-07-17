@@ -18,7 +18,9 @@ This is a minimal state-machine API built in .NET 8 / C# as part of the Infoneti
 
 ```bash
 dotnet run
- Example API Calls
+
+
+Example API Calls
     Create a Workflow
 
     powershell
@@ -52,12 +54,12 @@ dotnet run
 
 
 
-    Assumptions & Notes
-    
-    In-memory only (no persistence after restart)
-    Exactly one initial state required per workflow
-    Actions blocked if:
-    Disabled
-    Wrong source state
-    Acting on final state
+Assumptions & Notes
+
+In-memory only (no persistence after restart)
+Exactly one initial state required per workflow
+Actions blocked if:
+Disabled
+Wrong source state
+Acting on final state
 
