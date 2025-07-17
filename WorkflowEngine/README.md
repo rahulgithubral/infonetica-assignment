@@ -12,15 +12,12 @@ This is a minimal state-machine API built in .NET 8 / C# as part of the Infoneti
 - Inspect current state and history of instances
 - In-memory storage (no database)
 
-
-
-
-
-
+```bash
 dotnet run
-Example API Calls
+ Example API Calls
     Create a Workflow
     powershell
+    
     curl -Uri http://localhost:5151/workflows -Method POST -Body '{
     "name": "Leave Process",
     "states": [
@@ -48,6 +45,8 @@ Example API Calls
 
     powershell
     curl http://localhost:5151/instances/<INSTANCE-ID>
+
+
 
     Assumptions & Notes
     
